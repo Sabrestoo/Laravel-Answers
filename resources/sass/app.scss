@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Override white background
+body {
+    background: #303030  !important;
+    }
+
+    p, h6, h5, h4, h3, h2 ,h1 {
+        color:  #f8f9fa !important;
+    }
+
+.container {
+    margin-top: 2.5rem;
+}
