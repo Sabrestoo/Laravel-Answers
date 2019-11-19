@@ -11,6 +11,8 @@
 |
 */
 
+use App\Http\Controllers\UploadController;
+
 Route::get('/', function () {
     return view('welcome');
 })->name('index');
@@ -27,3 +29,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile/{user}', 'PageController@profile')->name('profile');
+
+Route::get('/upload', 'UploadController@getUpload')->name('upload');
+Route::post('/upload', 'UploadController@postUpload');

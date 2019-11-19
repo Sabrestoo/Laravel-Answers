@@ -19,6 +19,6 @@
     </div>
         @endforeach
 
-        {{ $questions->links() }}
+        <div class="paginate mt-3">{{ $questions->links() }}</div>
     </div>
     @endsection

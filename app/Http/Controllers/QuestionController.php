@@ -27,6 +27,7 @@ class QuestionController extends Controller
         return view('questions.index')->with('questions', $questions);
     }
 
+
     /**
      * Show the form for creating a new resource.
      *
